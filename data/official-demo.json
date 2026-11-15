@@ -1,0 +1,21 @@
+{
+  "title": "LCQ20: Replacement of old public transport and commercial vehicles",
+  "url": "https://www.info.gov.hk/gia/general/202610/07/P2026100600231.htm",
+  "publishedAt": "2026-10-07",
+  "publishedAtBasis": "published",
+  "capturedAt": "2026-11-15T01:09:29+00:00",
+  "capturedFrom": "https://www.info.gov.hk/gia/general/202610/07/P2026100600231p.htm",
+  "captureSha256": "8b027db93197d4fad45e65cc36f9f93611c3ea0581189016ff0382a1d3fa8046",
+  "captureScope": "Selected complete source paragraphs and table where relevant. HTML wrappers and whitespace normalized.",
+  "sampleScope": "replay_withheld_from_baseline",
+  "locators": [
+    "Reply §(1), Number of first registered EVs",
+    "Reply §(2) and (4), taxi and franchised-bus subsidy paragraphs"
+  ],
+  "html": "<article>\n<h1>LCQ20: Replacement of old public transport and commercial vehicles</h1>\n<h2>Reply</h2>\n<p>(1)&nbsp;The number of first registered electric buses (e-buses), electric taxis (e-taxis) and electric public light buses (e-PLBs) over the past three years or so, as well as the current number and proportion of EVs within each vehicle type, are as follows.</p>\n<h3>Number of first registered EVs</h3>\n<table>\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>Vehicle Type</td>\r\n\t\t\t<td>2023</td>\r\n\t\t\t<td>2024</td>\r\n\t\t\t<td>2025</td>\r\n\t\t\t<td>2026<br />\r\n\t\t\t(as at end-August)</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>E-bus</td>\r\n\t\t\t<td>39</td>\r\n\t\t\t<td>33</td>\r\n\t\t\t<td>43</td>\r\n\t\t\t<td>57</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>E-taxi</td>\r\n\t\t\t<td>17</td>\r\n\t\t\t<td>140</td>\r\n\t\t\t<td>899</td>\r\n\t\t\t<td>634</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>E-PLB</td>\r\n\t\t\t<td>1</td>\r\n\t\t\t<td>3</td>\r\n\t\t\t<td>11</td>\r\n\t\t\t<td>9</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\n<h2>Reply (2) and (4)</h2>\n<p>(2) and (4) The Government launched the e-taxi subsidy scheme in December 2024, aiming to subsidise the taxi trade to purchase 3&nbsp;000 e-taxis to replace their old taxis. The subsidy level for each e-taxi is $45,000. From the launch of the subsidy scheme to August 2026, the Government has issued a total of five rounds of invitation letters to eligible owners of the oldest batches of taxis at that time, covering 8&nbsp;448 taxis with their first registration dates on or before October 20, 2016. As at end-August 2026, the owners of 3&nbsp;578 taxis have accepted the subsidy quotas. Among them, 1&nbsp;152 e-taxis have been licensed and are eligible to receive subsidy. Besides, the owners of 3&nbsp;527 taxis replied not to participate in the scheme or did not reply in the first four rounds of invitations, whilst the owners of 1&nbsp;343 taxis in the latest round of invitation have not yet replied whether they will accept the subsidy quota before the impending deadline in early October.</p>\n<h3>Franchised bus subsidy</h3>\n<p>The Government has also launched a scheme to subsidise FBOs in purchasing e-buses, so as to promote the green transformation of franchised buses. All FBOs confirmed their participation in the scheme in August 2025 and commenced preparations for the tendering exercises to procure about 600 e-buses by end-2027 and complete vehicle delivery and registration by end-2029. The first batch of e-buses is expected to be registered in 2027 and gradually be put into service. The implementation details and relevant deadlines of the scheme have been confirmed by all FBOs, and there is currently no intention to change.</p>\n</article>",
+  "expectedStages": [
+    "scheme_launched",
+    "procurement_preparation"
+  ],
+  "reason": "答复明确确认专营电动巴士资助计划已推出、营办商已开始筹备招标。2027/2029 是目标日期。首次登记表覆盖全港电动巴士，未按计划识别；同一答复的的士许可数字属于其他计划。"
+}

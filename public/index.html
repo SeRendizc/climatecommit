@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b2a">
+  <title>ClimateCommit · Hong Kong electric buses</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <main class="demo">
+    <header>
+      <div class="hero-head">
+        <div class="brand">ClimateCommit</div>
+        <div class="language" role="group" aria-label="Language">
+          <button type="button" data-language="en" aria-pressed="true" lang="en">EN</button>
+          <button type="button" data-language="zh" aria-pressed="false" lang="zh-CN">中文</button>
+        </div>
+      </div>
+      <h1 data-label="headline">How much carbon could electric buses cut?</h1>
+      <p class="subtitle" data-label="subtitle">Hong Kong franchised buses · 600 replacements · illustrative annual operations</p>
+    </header>
+
+    <section class="comparison" aria-labelledby="chart-title">
+      <div class="chart-head">
+        <div>
+          <h2 id="chart-title" data-label="chartTitle">Annual operating emissions</h2>
+          <span class="unit" data-label="unit">tCO₂e per year · same distance travelled</span>
+        </div>
+        <button id="replay" type="button" data-label="replay" disabled>Replay chart</button>
+      </div>
+      <figure>
+        <ol id="bars" class="bars" aria-label="Emissions by scenario"></ol>
+        <figcaption id="caption" aria-live="polite" class="caption"></figcaption>
+      </figure>
+      <button id="sensitivity-toggle" type="button" aria-pressed="false" data-label="sensitivityToggle">Try a lower energy-use case</button>
+    </section>
+
+    <section class="evidence" aria-labelledby="evidence-title">
+      <div class="evidence-head">
+        <div>
+          <h2 id="evidence-title" data-label="evidenceTitle">Implementation evidence</h2>
+          <p data-label="evidenceIntro">Check an offline snapshot of a Legislative Council reply.</p>
+        </div>
+        <button class="primary" id="analyze-update" type="button" data-label="analyze">Analyze official update</button>
+      </div>
+      <p class="analysis-status" id="analysis-status" role="status" hidden></p>
+      <div class="analysis-results" id="analysis-results" aria-live="polite" hidden></div>
+      <details class="paste">
+        <summary data-label="pasteSummary">Try another document</summary>
+        <button class="primary" id="analyze-roadmap" type="button" data-label="analyzeRoadmap" hidden>Review the 2024 roadmap announcement</button>
+        <form id="official-url-form">
+          <label for="official-url" data-label="urlLabel">English press release from info.gov.hk</label>
+          <input type="url" id="official-url" placeholder="https://www.info.gov.hk/gia/general/…" maxlength="400" required>
+          <button class="primary" id="analyze-url" type="submit" data-label="analyzeUrl">Analyze official link</button>
+        </form>
+        <form id="paste-form">
+          <label for="document-text" data-label="pasteLabel">Paste the full text, including the scheme name.</label>
+          <textarea id="document-text" rows="4" maxlength="32000" required></textarea>
+          <button class="primary" id="analyze-text" type="submit" data-label="analyzeText">Analyze pasted text</button>
+        </form>
+      </details>
+    </section>
+
+    <details class="sources">
+      <summary data-label="sources">Model assumptions and sources</summary>
+      <p data-label="assumptions"></p>
+      <p id="sensitivity"></p>
+      <ul>
+        <li><a data-label="sourcePolicy" href="https://www.legco.gov.hk/yr2024/english/panels/ea/papers/eatp20241216cb1-1665-1-e.pdf"></a></li>
+        <li><a data-label="sourceKm" href="https://www.td.gov.hk/mini_site/atd/2025/en/section5-5.html"></a></li>
+        <li><a data-label="sourceMix" href="https://www.eeb.gov.hk/sites/default/files/pdf/Updated_EV_Roadmap_eng.pdf"></a></li>
+        <li><a data-label="sourceEnergy" href="https://civic-exchange.org/wp-content/uploads/2022/12/HK-transport_Final_20220930.pdf#page=44"></a></li>
+        <li><a data-label="sourceSensitivity" href="https://ira.lib.polyu.edu.hk/handle/10397/120189"></a></li>
+        <li><a data-label="sourceDiesel" href="https://cnsd.gov.hk/wp-content/uploads/2024/01/EPD_CA_Guidebook_Office_English.pdf"></a></li>
+        <li><a data-label="sourceClp" href="https://www.clpgroup.com/content/dam/clp-group/channels/sustainability/document/sustainability-report/2025/CLP_Independent_Assurance_Statement_2025.pdf.coredownload.pdf"></a> / <a data-label="sourceHke" href="https://www.hkelectric.com/documents/en/CorporateSocialResponsibility/CorporateSocialResponsibility_CDD/Documents/SR2025E_approach.pdf"></a></li>
+      </ul>
+    </details>
+  </main>
+</body>
+</html>

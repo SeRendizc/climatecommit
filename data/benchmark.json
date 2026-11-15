@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Budget Speech by the Financial Secretary (9)",
+    "url": "https://www.info.gov.hk/gia/general/202502/26/P2025022600142.htm",
+    "publishedAt": "2025-02-26",
+    "publishedAtBasis": "published",
+    "capturedAt": "2026-11-15T01:09:29+00:00",
+    "capturedFrom": "https://www.info.gov.hk/gia/general/202502/26/P2025022600142p.htm",
+    "captureSha256": "1951c179372e10714637fa85405161d4cfed26de7c552c8ea19bd63aba08dd80",
+    "captureScope": "Selected complete source paragraphs and table where relevant. HTML wrappers and whitespace normalized.",
+    "sampleScope": "curated_regression",
+    "locators": [
+      "Budget Speech §180"
+    ],
+    "html": "<article>\n<h1>Budget Speech by the Financial Secretary (9)</h1>\n<h2>Green Transformation of Public Buses and Taxis</h2>\n<p>180. The Government has announced the Green Transformation Roadmap of Public Buses and Taxis and earmarked $470 million under the New Energy Transport Fund to subsidise franchised bus operators in purchasing about 600 electric buses. Also, $135 million were earmarked to subsidise the taxi trade in purchasing 3 000 electric taxis. In addition, the Funding Scheme to Trial of Hydrogen Fuel Cell Heavy Vehicles is now open for application.</p>\n</article>",
+    "expectedStages": [
+      "funding_reserved"
+    ],
+    "reason": "第 180 段分别列出巴士计划预留 HK$470m 和的士计划预留 HK$135m；已开放申请的是氢燃料重型车辆试验资助。该段只支持巴士资金预留。"
+  },
+  {
+    "title": "Applications for Use (AU) | Environment and Ecology Bureau",
+    "url": "https://www.eeb.gov.hk/en/new-energy-transport-fund/AU.html",
+    "publishedAt": "2026-08-13",
+    "publishedAtBasis": "page_last_updated",
+    "capturedAt": "2026-11-15T01:09:29+00:00",
+    "capturedFrom": "https://www.eeb.gov.hk/en/new-energy-transport-fund/AU.html",
+    "captureSha256": "5e51dc6839061237753d7a6246eca1b7d82146ad7e1a806f6d4d4d6a3f775934",
+    "captureScope": "Selected complete source paragraphs and table where relevant. HTML wrappers and whitespace normalized.",
+    "sampleScope": "curated_regression",
+    "locators": [
+      "Electric Bus Subsidy Scheme, opening paragraph"
+    ],
+    "html": "<article>\n<h1>Applications for Use (AU) | Environment and Ecology Bureau</h1>\n<h2>Electric Bus Subsidy Scheme</h2>\n<p>In order to speed up the green transformation of public buses, the Fund has launched under the AU the Electric Bus Subsidy Scheme to subsidise franchised bus operators to purchase e-FBs, with a view to assisting franchised bus operators in the gradual green transformation while accommodating their actual operational conditions. The Subsidy Scheme will cover franchised bus operators’ procurement of about 600 brand new single-deck and double-deck e-buses at $400,000 and $800,000 each respectively, or at 25% of their respective capital cost, whichever is the lower.</p>\n</article>",
+    "expectedStages": [
+      "scheme_launched"
+    ],
+    "reason": "新能源运输基金已推出方案；文本中的约 600 辆、资助比例和上限为计划条件。页面日期是资料更新日期。"
+  },
+  {
+    "title": "LCQ11: Promoting the popularisation of electric commercial vehicles",
+    "url": "https://www.info.gov.hk/gia/general/202605/20/P2026052000267.htm",
+    "publishedAt": "2026-05-20",
+    "publishedAtBasis": "published",
+    "capturedAt": "2026-11-15T01:09:29+00:00",
+    "capturedFrom": "https://www.info.gov.hk/gia/general/202605/20/P2026052000267p.htm",
+    "captureSha256": "80b9408773980f86623368cd113aa3c76b3d15c0201078eefa63b56c09a030a3",
+    "captureScope": "Selected complete source paragraphs and table where relevant. HTML wrappers and whitespace normalized.",
+    "sampleScope": "curated_regression",
+    "locators": [
+      "Reply §(1) and (2), opening paragraph"
+    ],
+    "html": "<article>\n<h1>LCQ11: Promoting the popularisation of electric commercial vehicles</h1>\n<h2>Reply</h2>\n<p>(1) and (2) The Government has earmarked over $600 million under the New Energy Transport Fund (NET Fund) to subsidise franchised bus operators in the purchase of approximately 600 electric buses (e-buses), as well as to subsidise taxi owners in the purchase of 3 000 electric taxis (e-taxis). The franchised bus operators are currently preparing for the tenders for the e-buses, with a view to placing purchase orders by the end of 2027 and completing vehicle delivery and registration by the end of 2029. It is expected that the first batch of e-buses will be registered in 2027 and gradually put into service. As of the end of April 2026, in the first four rounds of the e-taxi subsidy scheme, 1 992 taxis had accepted the subsidy quotas and submitted order documents within the specified deadline, of which 786 e-taxis have been licensed. The Government will continue to invite eligible vehicle owners to participate in the scheme based on vehicle age, with a view to achieving the target of introducing 3 000 e-taxis by the end of 2027. Regarding electric wheelchair taxis, the Updated Roadmap proposed that the Government plans to launch a further $50 million subsidy scheme in 2026. The Government has met with the taxi trade (including taxi associations/unions, taxi fleets and electric wheelchair taxi suppliers) to gather preliminary views on the framework of the subsidy scheme. The Government will further consult relevant stakeholders and take into account factors such as the number of electric wheelchair taxi models available on the market and the views of the trade when determining the subsidy quantity and amount. Details will be announced in due course.</p>\n</article>",
+    "expectedStages": [
+      "procurement_preparation"
+    ],
+    "reason": "专营营办商正在招标准备。逾 HK$600m 为巴士和的士合计，不能归为该巴士计划的独立预算。订购和交付登记属于计划目标，已领牌数字属于的士。"
+  },
+  {
+    "title": "Government announces Green Transformation Roadmap of Public Buses and Taxis (with photos)",
+    "url": "https://www.info.gov.hk/gia/general/202412/10/P2024121000198.htm",
+    "publishedAt": "2024-12-10",
+    "publishedAtBasis": "published",
+    "capturedAt": "2026-11-15T01:09:29+00:00",
+    "capturedFrom": "https://www.info.gov.hk/gia/general/202412/10/P2024121000198p.htm",
+    "captureSha256": "03bca54c958b5dc5c549251d1e53e3ca9680f1e05530a9d0480dcb7a04f475c1",
+    "captureScope": "Selected complete source paragraphs and table where relevant. HTML wrappers and whitespace normalized.",
+    "sampleScope": "curated_regression",
+    "locators": [
+      "Paragraph beginning “The journey to full green transformation”"
+    ],
+    "html": "<article>\n<h1>Government announces Green Transformation Roadmap of Public Buses and Taxis (with photos)</h1>\n<p>The journey to full green transformation of public buses and taxis is still challenging. In addition to making good use of public money, it is also essential to avoid placing excessive burdens on the general public. The Government must, therefore, find cost-effective solutions to strike a balance. In promoting the green transformation of public buses and taxis, the Roadmap adopts three guiding principles, namely (i) primarily by &quot;carrots but not sticks&quot;; (ii) a gradual and orderly approach; and (iii) no additional costs to passengers as far as possible. Major measures include subsidising franchised bus operators to purchase about 600 e-buses and the taxi trades to purchase 3 000 e-taxis. The Government will issue letters to invite eligible taxi owners and the franchised bus companies to participate in the subsidy schemes within this month. In addition, the Government will continue to take a multipronged approach to encourage the industry to expand charging facilities. It is expected to provide at least 500 fast chargers throughout Hong Kong by end-2027 to cater for the expected growth in the number of electric vehicles (EVs).</p>\n</article>",
+    "expectedStages": [],
+    "reason": "新闻稿公布路线图和资助购车措施，邀请函和采购仍以计划措辞描述。这里将路线图公布和资助计划正式推出分开。"
+  },
+  {
+    "title": "LCQ16: Improving charging efficiency of public charging facilities",
+    "url": "https://www.info.gov.hk/gia/general/202610/28/P2026102800314.htm",
+    "publishedAt": "2026-10-28",
+    "publishedAtBasis": "published",
+    "capturedAt": "2026-11-15T01:09:29+00:00",
+    "capturedFrom": "https://www.info.gov.hk/gia/general/202610/28/P2026102800314p.htm",
+    "captureSha256": "9e5e9ac6a6a7c393e3429c912e166892156a54cf9f9f44a55306cbc32045a3a0",
+    "captureScope": "Selected complete source paragraphs and table where relevant. HTML wrappers and whitespace normalized.",
+    "sampleScope": "curated_regression",
+    "locators": [
+      "Reply §(4), measures (ii), (iii), and (v)"
+    ],
+    "html": "<article>\n<h1>LCQ16: Improving charging efficiency of public charging facilities</h1>\n<h2>Reply</h2>\n<p>(ii) supporting franchised bus operators in installing charging facilities at new or existing bus depots and opening up the EV charging facilities at their bus depots and parking places in various districts for public use during daytime;</p>\n<p>(iii) launching a $20 million fast charger scheme dedicated for commercial vehicles to encourage the trade to install commercial vehicle-dedicated fast chargers with an output power of at least 240 kW. We are drafting the framework of the new scheme and, following consultation with relevant stakeholders, will finalise the details and arrangements, including the subsidy amount and the number of chargers, with a view to announcing the details of the new scheme by the end of this year;</p>\n<p>(v) installing 50 fast chargers dedicated for e-taxis by the end of 2027 (capable of supporting about 300 e-taxis), of which 12 have already fully commenced operation and the remaining 38 will progressively come into operation from the end of this year;</p>\n</article>",
+    "expectedStages": [],
+    "reason": "车厂充电设施、商用车充电补助及投入服务的的士充电桩属于相关基础设施，无法证明专营巴士购车计划的执行里程碑。"
+  }
+]

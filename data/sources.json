@@ -1,0 +1,87 @@
+[
+  {
+    "id": "hk-climate-plan-2050",
+    "title": "Government announces Hong Kong's Climate Action Plan 2050",
+    "url": "https://www.info.gov.hk/gia/general/202110/08/P2021100800588.htm",
+    "publishedAt": "2021-10-08",
+    "language": "en",
+    "phase": "baseline",
+    "chunks": [
+      {
+        "id": "hk-climate-plan-2050:goal",
+        "locator": "Paragraph beginning ‘The Chief Executive announced in the Policy Address last year’",
+        "text": "would strive to achieve carbon neutrality before 2050"
+      },
+      {
+        "id": "hk-climate-plan-2050:transport",
+        "locator": "Green transport bullet",
+        "text": "zero vehicular emissions and zero carbon emissions in the transport sector before 2050"
+      }
+    ]
+  },
+  {
+    "id": "hk-bus-taxi-roadmap-2024",
+    "title": "Government announces Green Transformation Roadmap of Public Buses and Taxis",
+    "url": "https://www.info.gov.hk/gia/general/202412/10/P2024121000198.htm",
+    "publishedAt": "2024-12-10",
+    "language": "en",
+    "phase": "baseline",
+    "chunks": [
+      {
+        "id": "hk-bus-taxi-roadmap-2024:commitment",
+        "locator": "Paragraph beginning ‘In promoting the green transformation of public buses and taxis’",
+        "text": "Major measures include subsidising franchised bus operators to purchase about 600 e-buses and the taxi trades to purchase 3 000 e-taxis."
+      }
+    ]
+  },
+  {
+    "id": "hk-budget-2025",
+    "title": "Budget Speech by the Financial Secretary (9)",
+    "url": "https://www.info.gov.hk/gia/general/202502/26/P2025022600142.htm",
+    "publishedAt": "2025-02-26",
+    "language": "en",
+    "phase": "baseline",
+    "chunks": [
+      {
+        "id": "hk-budget-2025:180",
+        "locator": "Paragraph 180, Green Transformation of Public Buses and Taxis",
+        "text": "earmarked $470 million under the New Energy Transport Fund to subsidise franchised bus operators in purchasing about 600 electric buses"
+      }
+    ]
+  },
+  {
+    "id": "hk-eeb-bus-subsidy",
+    "title": "New Energy Transport Fund: Applications for Use",
+    "url": "https://www.eeb.gov.hk/en/new-energy-transport-fund/AU.html",
+    "publishedAt": "2026-08-13",
+    "language": "en",
+    "phase": "baseline",
+    "chunks": [
+      {
+        "id": "hk-eeb-bus-subsidy:launch",
+        "locator": "Electric Bus Subsidy Scheme, first paragraph",
+        "text": "the Fund has launched under the AU the Electric Bus Subsidy Scheme to subsidise franchised bus operators to purchase e-FBs"
+      }
+    ]
+  },
+  {
+    "id": "hk-legco-lcq20-2026-10",
+    "title": "LCQ20: Replacement of old public transport and commercial vehicles",
+    "url": "https://www.info.gov.hk/gia/general/202610/07/P2026100600231.htm",
+    "publishedAt": "2026-10-07",
+    "language": "en",
+    "phase": "holdout",
+    "chunks": [
+      {
+        "id": "hk-legco-lcq20-2026-10:procurement",
+        "locator": "Reply, parts (2) and (4), franchised-bus subsidy paragraph",
+        "text": "commenced preparations for the tendering exercises to procure about 600 e-buses by end-2027"
+      },
+      {
+        "id": "hk-legco-lcq20-2026-10:delivery-target",
+        "locator": "Reply, parts (2) and (4), franchised-bus subsidy paragraph",
+        "text": "complete vehicle delivery and registration by end-2029"
+      }
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hk-budget-2025-funding-reserved",
+    "sourceId": "hk-budget-2025",
+    "chunkId": "hk-budget-2025:180",
+    "quote": "earmarked $470 million under the New Energy Transport Fund to subsidise franchised bus operators in purchasing about 600 electric buses",
+    "stage": "funding_reserved",
+    "schemeId": "hk-e-bus-600",
+    "note": "预算案列明在新能源运输基金下预留 4.7 亿港元，用于资助专营巴士营办商购置约 600 辆电动巴士。实际拨付金额待核查。"
+  },
+  {
+    "id": "hk-eeb-subsidy-launched",
+    "sourceId": "hk-eeb-bus-subsidy",
+    "chunkId": "hk-eeb-bus-subsidy:launch",
+    "quote": "the Fund has launched under the AU the Electric Bus Subsidy Scheme to subsidise franchised bus operators to purchase e-FBs",
+    "stage": "scheme_launched",
+    "schemeId": "hk-e-bus-600",
+    "note": "环境及生态局网页确认新能源运输基金已推出电动巴士资助计划。"
+  },
+  {
+    "id": "hk-legco-2026-tender-preparation",
+    "sourceId": "hk-legco-lcq20-2026-10",
+    "chunkId": "hk-legco-lcq20-2026-10:procurement",
+    "quote": "commenced preparations for the tendering exercises to procure about 600 e-buses by end-2027",
+    "stage": "procurement_preparation",
+    "schemeId": "hk-e-bus-600",
+    "note": "政府向立法会披露，专营巴士营办商已展开招标准备。2027 年底为订购目标，订单或中标记录待核查。"
+  }
+]

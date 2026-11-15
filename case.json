@@ -1,0 +1,20 @@
+{
+  "schemeId": "hk-e-bus-600",
+  "title": "香港专营巴士电动化",
+  "description": "追踪香港资助专营巴士营办商购置约 600 辆电动巴士的进展。香港将绿色运输纳入 2050 年前实现碳中和的策略。",
+  "cutoff": "2026-10-07",
+  "owner": "香港环境及生态局／新能源运输基金",
+  "implementer": "香港专营巴士营办商",
+  "stages": [
+    {"id":"funding_reserved","label":"资金预留","target":"2025 年预算案","description":"追踪指定资助计划的预留资金。"},
+    {"id":"scheme_launched","label":"计划推出","target":"2024 年 12 月","description":"确认电动巴士资助计划已推出。"},
+    {"id":"procurement_preparation","label":"招标准备","target":"2026 年进度披露","description":"跟踪营办商是否已着手筹备招标。"},
+    {"id":"ordered","label":"车辆订购","target":"2027 年底前","description":"需要可归属本计划的订单或明确的订购进度披露。"},
+    {"id":"delivered_registered","label":"交付及登记","target":"2029 年底前","description":"需要可归属本计划的交付与登记记录。"}
+  ],
+  "context": [
+    {"label":"香港气候目标","url":"https://cnsd.gov.hk/en/climate-ready/climate-targets-of-hk/"},
+    {"label":"公共巴士和的士绿色转型路线图","url":"https://www.eeb.gov.hk/sites/default/files/pdf/Bus_Taxi_Roadmap_eng.pdf"},
+    {"label":"订购及交付时间表","url":"https://www.info.gov.hk/gia/general/202610/07/P2026100600231.htm"}
+  ]
+}

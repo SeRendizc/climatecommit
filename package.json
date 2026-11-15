@@ -1,0 +1,17 @@
+{
+  "name": "climatecommit-hk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "replay": "node scripts/replay.mjs",
+    "audit": "node scripts/audit.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
+    "build:demo": "node scripts/portable.mjs",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
