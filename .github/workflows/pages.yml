@@ -14,6 +14,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      demo-sha256: ${{ steps.demo.outputs.sha256 }}
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-node@v4
@@ -23,9 +25,11 @@ jobs:
       - run: npm run benchmark
       - run: npm run build:demo
       - name: Prepare Pages files
+        id: demo
         run: |
           mkdir -p dist
           cp ClimateCommit-Demo.html dist/index.html
+          printf 'sha256=%s\n' "$(sha256sum dist/index.html | cut -d ' ' -f 1)" >> "$GITHUB_OUTPUT"
       - uses: actions/upload-pages-artifact@v4
         with:
           path: dist
@@ -41,3 +45,16 @@ jobs:
     steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+      - name: Verify the public demo
+        env:
+          DEMO_URL: ${{ steps.deployment.outputs.page_url }}
+          EXPECTED_SHA256: ${{ needs.build.outputs.demo-sha256 }}
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            if curl --fail --silent --show-error --location --max-time 15 "$DEMO_URL" --output demo.html &&
+              printf '%s  demo.html\n' "$EXPECTED_SHA256" | sha256sum --check; then
+              exit 0
+            fi
+            sleep 5
+          done
+          exit 1
